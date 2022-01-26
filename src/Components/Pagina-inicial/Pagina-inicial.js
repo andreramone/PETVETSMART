@@ -1,20 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
+import Navbar from "../Navbar/Navbar";
 // import ReactDOM from "react-dom";
 import styles from './PaginaInicial.css'
-
 const img = 'https://i0.wp.com/www.portaldodog.com.br/cachorros/wp-content/uploads/2014/05/cachorro-no-veterinario-01.jpg?fit=744%2C533&ssl=1&resize=1280%2C720'
 
- class PaginaInicial extends Component {
-    render() {
+ function PaginaInicial(){ 
         return (
-            <>
+            <div>
             <h1 className='sloganpetvet'>PETVET SMART</h1>
             <h3>Cuidando do seu bichinho</h3>
-            <div>
-            <img className="paginaInicialbg" src={img} alt=''/>
+            <div className="paginaInicialbg">
+            <img src={img} alt=''/>
             </div>
             <div className="text-paginaInicial">
-            
+           
             <h2>Somos uma empresa que sabe cuidar do que e mais importante para voce</h2>
             <p>O que faz um Veterinário?
 O profissional que cuida da saúde e do bem-estar de animais é o veterinário. Ele dá assistência clínica e cirúrgica a animais domésticos e silvestres, cuida da saúde, alimentação e reprodução de rebanhos, controla doenças em grandes populações de animais, entre outras funções relacionadas à saúde animal.</p>
@@ -30,10 +29,10 @@ Veterinária Industrial: acompanhamento da fabricação de produtos de origem an
 Medicina Veterinária Ambiental: estudo de animais silvestres em seu ambiente natural. O veterinário irá cuidar da saúde das espécies, identificando doenças, contribuindo para a preservação da biodiversidade, ajudar na reabilitação de animais cativos que serão devolvidos à natureza.
 Controle e Tecnologia para Populações Animais: desenvolvimento das melhores técnicas para a criação e a nutrição de rebanhos, além da melhoria genética e reprodução.</p>
 </div>
-            </>
+                </div>
         )
     }
 
-}
+
 
 export default PaginaInicial

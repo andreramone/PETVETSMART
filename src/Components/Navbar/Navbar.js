@@ -1,9 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import styles from './navbar.css'
+// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+// import  from '../Routes/Routes'
 
-const Navbar = () => {
+function Navbar(){
     return (
+            
         <nav>
            <ul className="navbg">
                <li>
@@ -13,9 +16,12 @@ const Navbar = () => {
                    <Link to='/login'>Login / Criar sua conta</Link>
                </li>
 
-               
+               <li>
+                   <Link to='/clients'>Clientes</Link>
+               </li>
             </ul> 
         </nav>
+             
 
     )
 }

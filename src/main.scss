@@ -50,7 +50,7 @@ section#entry-page {
           align-items: center;
           margin: 10px;
           a {
-            color: #02c;
+            color: black;
           }
           em {
             grid-column: span 2;
@@ -83,6 +83,20 @@ section#entry-page {
         border: 1px solid #aaf;
       }
     }
+  }
+}
+
+.link {
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  border:1px solid rgba(0,0,0,0);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  &:hover {
+    background-color: #eef;
+    border: 1px solid #aaf;
   }
 }
 @media only screen and (min-width: 420px) {

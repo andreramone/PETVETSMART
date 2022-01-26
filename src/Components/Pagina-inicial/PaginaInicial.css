@@ -1,7 +1,6 @@
 .paginaInicialbg{
     display: block;
     
-  
 }
 
 
@@ -50,4 +49,16 @@ h2{
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
+}
+
+img{
+    display: flex;
+    border-radius: 50%;
+}
+
+.paragrafo-imagem{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
 }
